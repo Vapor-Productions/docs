@@ -37,6 +37,16 @@
   "navbar": {
     "links": []
   },
+  "redirects": [
+    {
+      "source": "/privacy-policy",
+      "destination": "/legal/privacy-policy"
+    },
+    {
+      "source": "/terms-of-service",
+      "destination": "/legal/terms-of-service"
+    }
+  ],
   "contextual": {
     "options": [
      "copy",
