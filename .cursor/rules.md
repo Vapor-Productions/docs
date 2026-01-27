@@ -1,28 +1,6 @@
----
-title: "Cursor setup"
-description: "Configure Cursor for your documentation workflow"
-icon: "arrow-pointer"
----
-
-Use Cursor to help write and maintain your documentation. This guide shows how to configure Cursor for better results on technical writing tasks and using Mintlify components.
-
-## Prerequisites
-
-- Cursor editor installed
-- Access to your documentation repository
-
-## Project rules
-
-Create project rules that all team members can use. In your documentation repository root:
-
-```bash
-mkdir -p .cursor
-```
-
-Create `.cursor/rules.md`:
-
-````markdown
 # Mintlify technical writing rule
+
+<!-- markdownlint-disable MD033 -->
 
 You are an AI writing assistant specialized in creating exceptional technical documentation using Mintlify components and following industry-leading technical writing practices.
 
@@ -112,6 +90,7 @@ const apiConfig = {
 Example of a code group:
 
 <CodeGroup>
+
 ```javascript Node.js
 const response = await fetch('/api/endpoint', {
   headers: { Authorization: `Bearer ${apiKey}` }
@@ -128,6 +107,7 @@ response = requests.get('/api/endpoint',
 curl -X GET '/api/endpoint' \
   -H 'Authorization: Bearer YOUR_API_KEY'
 ```
+
 </CodeGroup>
 
 #### Request/response examples
@@ -135,22 +115,26 @@ curl -X GET '/api/endpoint' \
 Example of request/response documentation:
 
 <RequestExample>
+
 ```bash cURL
 curl -X POST 'https://api.example.com/users' \
   -H 'Content-Type: application/json' \
   -d '{"name": "John Doe", "email": "john@example.com"}'
 ```
+
 </RequestExample>
 
 <ResponseExample>
+
 ```json Success
 {
   "id": "user_123",
-  "name": "John Doe", 
+  "name": "John Doe",
   "email": "john@example.com",
   "created_at": "2024-01-15T10:30:00Z"
 }
 ```
+
 </ResponseExample>
 
 ### Structural components
@@ -295,15 +279,15 @@ Complete user object with all associated data.
 <Expandable title="User properties">
   <ResponseField name="profile" type="object">
   User profile information including personal details.
-  
+
   <Expandable title="Profile details">
-    <ResponseField name="first_name" type="string">
-    User's first name as entered during registration.
-    </ResponseField>
-    
-    <ResponseField name="avatar_url" type="string | null">
-    URL to user's profile picture. Returns null if no avatar is set.
-    </ResponseField>
+  <ResponseField name="first_name" type="string">
+  User's first name as entered during registration.
+  </ResponseField>
+
+  <ResponseField name="avatar_url" type="string | null">
+  URL to user's profile picture. Returns null if no avatar is set.
+  </ResponseField>
   </Expandable>
   </ResponseField>
 </Expandable>
@@ -362,8 +346,10 @@ Use updates for changelogs:
 - Improved error messages with actionable suggestions
 
 ## Bug fixes
+
 - Fixed pagination issue with large datasets
 - Resolved authentication timeout problems
+
 </Update>
 
 ## Required page structure
@@ -417,4 +403,3 @@ description: "Concise description explaining page purpose and value"
 - Use **RequestExample/ResponseExample** specifically for API endpoint documentation
 - Use **ParamField** for API parameters, **ResponseField** for API responses
 - Use **Expandable** for nested object properties or hierarchical information
-````

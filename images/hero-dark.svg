@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-label="Premier hero dark">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0F1923"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#FF4655"/>
+      <stop offset="1" stop-color="#FF6B6B"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#bg)"/>
+  <rect x="80" y="120" width="520" height="24" fill="url(#accent)"/>
+  <rect x="80" y="180" width="400" height="16" fill="#F9FAFB" opacity="0.8"/>
+  <rect x="80" y="220" width="320" height="12" fill="#F9FAFB" opacity="0.6"/>
+  <rect x="80" y="420" width="240" height="36" rx="8" fill="#FF4655"/>
+  <text x="100" y="445" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#0F1923">Premier Bot</text>
+  <path d="M780 140l260 0 40 40 0 220-300 0z" fill="#111827"/>
+  <path d="M820 220h140c40 0 72 32 72 72s-32 72-72 72h-60v-88h-80z" fill="#FF4655"/>
+</svg>

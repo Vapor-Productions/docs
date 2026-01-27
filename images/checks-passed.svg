@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420" role="img" aria-label="Checks passed">
+  <rect width="800" height="420" rx="24" fill="#0F1923"/>
+  <rect x="48" y="48" width="704" height="72" rx="12" fill="#111827"/>
+  <rect x="48" y="144" width="704" height="72" rx="12" fill="#111827"/>
+  <rect x="48" y="240" width="704" height="72" rx="12" fill="#111827"/>
+  <circle cx="96" cy="84" r="18" fill="#FF4655"/>
+  <circle cx="96" cy="180" r="18" fill="#FF4655"/>
+  <circle cx="96" cy="276" r="18" fill="#FF4655"/>
+  <path d="M88 84l6 6 14-14" stroke="#0F1923" stroke-width="6" fill="none"/>
+  <path d="M88 180l6 6 14-14" stroke="#0F1923" stroke-width="6" fill="none"/>
+  <path d="M88 276l6 6 14-14" stroke="#0F1923" stroke-width="6" fill="none"/>
+  <rect x="140" y="70" width="220" height="8" fill="#F9FAFB" opacity="0.8"/>
+  <rect x="140" y="88" width="180" height="8" fill="#F9FAFB" opacity="0.6"/>
+  <rect x="140" y="166" width="260" height="8" fill="#F9FAFB" opacity="0.8"/>
+  <rect x="140" y="184" width="200" height="8" fill="#F9FAFB" opacity="0.6"/>
+  <rect x="140" y="262" width="240" height="8" fill="#F9FAFB" opacity="0.8"/>
+  <rect x="140" y="280" width="190" height="8" fill="#F9FAFB" opacity="0.6"/>
+</svg>
